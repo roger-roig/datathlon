@@ -2,13 +2,12 @@
 -------------
 - Our current task is to analyse cookie quality, so that we can know beforehand which cookies are going to be better and buy only those. That way we won't have stock problems.
 
-- H0: Chocolate chip cookies have the best quality.
-- H1: Chocolate chip cookies do not have the best quality.
+- Our hypothesis is that sugar index, butter type and mixins are determining to cookie quality, considering this, we will analyse if chocolate chip cookies have the best quality.
 
 
 ## Data preparation
 ---------------------
-We'll use a cookies dataset provided to us at Ironhack. Information about the table [available in the codebook](https://github.com/roger-roig/datathlon/blob/master/Data/Codebook.pdf)
+We'll use a cookies dataset (ingredients, baking time, ...)provided to us by Ironhack. Information about the dataset [available in the codebook](https://github.com/roger-roig/datathlon/blob/master/Data/Codebook.pdf)
 
 ## Data ingestion & Database
 -------------------------------
