@@ -1,7 +1,4 @@
-https://github.com/roger-roig/datathlon/blob/master/Data/Codebook.pdf
-
-
-## Overview
+## Overview
 -------------
 - Our current task is to analyse cookie quality, so that we can know beforehand which cookies are going to be better and buy only those. That way we won't have stock problems.
 
@@ -13,7 +10,7 @@ https://github.com/roger-roig/datathlon/blob/master/Data/Codebook.pdf
 ---------------------
 We'll use a cookies dataset provided to us at Ironhack. Information about the table [available in the codebook](https://github.com/roger-roig/datathlon/blob/master/Data/Codebook.pdf)
 
-## Data ingestion & Database
+## Data ingestion & Database
 -------------------------------
 - To access the dataset you must connect to the database as shown below:
 
