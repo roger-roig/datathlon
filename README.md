@@ -48,4 +48,7 @@ cookies_df = pd.read_sql(query2, engine)
 --------------------------------
 - Dropped nan values.
 - Converted dtype from crunch factor to float.
-- Created new columns and assigned them the conversion of categorical values to numerical.
+- Created new columns for the different values in the Mixing column and assigned them the conversion of categorical values to numerical (1 if the row has the value, 0 if it doesn't)
+- Dropped Diameter and Aesthetic appeal because the values where redundant and didn't give useful information to our model.
+- Butter Type one_hot_encoded (convert categorical types to numerical, 1 and 0).
+- Dropped Mixing column with categorical values, since it's alredy converted to numerical with one_hot_encoding.
